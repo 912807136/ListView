@@ -13,10 +13,10 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+    
 		initView();
 	}
-
+ 
 	private void initView() {
 		ListView listView = (ListView) findViewById(R.id.listView1);
 		String[] strs = { "test1", "test2", "test3", "test4", "test5", "test6",
